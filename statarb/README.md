@@ -1,6 +1,7 @@
 # statarb
 
 Modular toolkit for the hourly crypto data in `data/`.
+See the [project README](../README.md) for the model and the results.
 
 ```
 statarb/
@@ -16,7 +17,7 @@ statarb/
   cli.py          python -m statarb <view>
 ```
 
-Every function takes a `Market` explicitly — no globals, nothing depends on a
+Every function takes a `Market` explicitly. There are no globals, and nothing depends on a
 notebook cell having run.
 
 ## Library
